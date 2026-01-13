@@ -25,7 +25,7 @@ return (
         </View>
 
             {/* customized button */}
-            <AppButton mytitle="Login" mystyle={{backgroundColor: Colors.primary, width: "100%", height: 50 ,marginRight: 0 }} />
+            <AppButton onPress={() => router.push("/(tabs)/(home)")} mytitle="Login" mystyle={{backgroundColor: Colors.primary, width: "100%", height: 50 ,marginRight: 0 }} />
 
             <Text style={styles.createAccounText}>
                 No Account?     

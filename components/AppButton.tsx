@@ -23,9 +23,7 @@ const AppButton = ({mytitle,onPress , myicon, mystyle, disabled=false}:AppButton
 return (
     <Pressable
       style={({ pressed }) => [styles.containerButton,{ opacity: pressed ? 0.6 : 1 },mystyle ]}
-      onPress={() => {
-        console.log("Button pressed");
-      }}
+      onPress={onPress}  disabled={disabled}
     >
         <View style={{flexDirection: "row"}}>
             <Text style = {{color:Colors.text, fontWeight: "600" , marginRight: 0,}}>
