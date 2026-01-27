@@ -1,65 +1,78 @@
-export const movies = [
+export const myMockMoviesData = [
   {
+    id: "1",
     image: require("@/assets/images/movie1.png"),
     title: "The Sandan",
     genre: "Action | Drama",
   },
   {
+    id: "2",
     image: require("@/assets/images/movie2.png"),
     title: "Shaka Ilembe",
     genre: "Action | Drama",
   },
   {
+    id: "3",
     image: require("@/assets/images/movie3.png"),
     title: "Savage Kingdom",
     genre: "Adventure | Wildlife",
   },
   {
+    id: "4",
     image: require("@/assets/images/movie4.png"),
     title: "Ghost Protocol",
     genre: "Action | Thriller",
   },
   {
+    id: "5",
     image: require("@/assets/images/movie5.png"),
     title: "Royal Blood",
     genre: "Drama | Mystery",
   },
   {
+    id: "6",
     image: require("@/assets/images/movie6.png"),
     title: "Echoes of War",
     genre: "Historical | Action",
   },
   {
+    id: "7",
     image: require("@/assets/images/movie7.png"),
     title: "The Outpost",
     genre: "War | Action",
   },
   {
+    id: "8",
     image: require("@/assets/images/movie8.png"),
     title: "The King's Path",
     genre: "Drama | Biography",
   },
   {
+    id: "9",
     image: require("@/assets/images/movie9.png"),
     title: "Dark Uprising",
     genre: "Sci-Fi | Action",
   },
   {
+    id: "10",
     image: require("@/assets/images/movie10.png"),
     title: "The Last Heir",
     genre: "Fantasy | Drama",
   },
   {
+    id: "11",
     image: require("@/assets/images/movie11.png"),
     title: "Blood & Water",
     genre: "Drama | Teen",
   },
   {
+    id: "12",
     image: require("@/assets/images/movie12.png"),
     title: "Code of Honor",
     genre: "Action | Crime",
   },
   {
+    id: "13",
     image: require("@/assets/images/movie13.png"),
     title: "Echo Valley",
     genre: "Mystery | Thriller",
